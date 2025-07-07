@@ -1,0 +1,53 @@
+# ViBidLQA-AQA Requirements
+# Core ML/DL Dependencies
+torch>=2.0.0
+transformers>=4.35.0
+datasets>=2.18.0
+evaluate>=0.4.0
+accelerate>=0.24.0
+
+# Training & Fine-tuning
+trl>=0.8.0
+peft>=0.6.0
+bitsandbytes>=0.41.0
+
+# Evaluation Metrics
+rouge-score>=0.1.2
+bert-score>=0.3.13
+nltk>=3.8.1
+spacy>=3.6.0
+
+# Vietnamese NLP
+pyvi>=0.1.1
+underthesea>=1.3.5
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+
+# Visualization & Monitoring
+wandb>=0.16.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+tqdm>=4.65.0
+
+# Configuration & Utils
+pyyaml>=6.0
+omegaconf>=2.3.0
+hydra-core>=1.3.0
+
+# Development & Quality
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.0.0
+isort>=5.12.0
+mypy>=1.5.0
+pre-commit>=3.4.0
+
+# Jupyter & Notebooks
+jupyter>=1.0.0
+ipywidgets>=8.0.0
+
+# Optional: Vietnamese Language Model
+vi-core-news-lg @ https://github.com/trungtv/vi_spacy/releases/download/vi_core_news_lg-3.6.0/vi_core_news_lg-3.6.0.tar.gz
